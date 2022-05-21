@@ -47,7 +47,7 @@ export const RepositoriesView: React.FC<RepositoriesViewProps> = ({ onUsersSearc
 
     const getRepos = useMemo(
         () => _.throttle(fetchData, 1000)
-      , []);
+      , [input]);
 
     useEffect(() => {
         getRepos();
