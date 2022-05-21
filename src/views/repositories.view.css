@@ -1,0 +1,30 @@
+.repositories-container {
+    display: flex;
+    justify-content: start; 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px
+}
+
+.repository {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+}
+
+.search-container {
+    padding: 20px;
+}
+
+.search-input {
+    width: 200px;
+    height: 30px;
+}
+
+.description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

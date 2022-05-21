@@ -1,0 +1,21 @@
+.users-container {
+    display: flex;
+    justify-content: start; 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px
+}
+
+.user {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.url {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
